@@ -58,11 +58,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Check the swagger
+## 📘 Check the swagger
 
 http://localhost:4000/api#/
 
-## Test
+## 🧪 Test
 
 ```bash
 # unit tests
