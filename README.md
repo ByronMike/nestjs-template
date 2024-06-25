@@ -1,49 +1,66 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# NestJS Boilerplate
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+⚡ An open-source Boilerplate for NestJS developers who want to build a high-performance, maintainable, and enjoyable app: NestJS, TypeScript, ESLint, Prettier, Docker, PostgreSQL, Prisma, Jest, and Swagger.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 🔥 Features
 
-## Description
+- [NestJS](https://nestjs.com) for building scalable server-side applications
+- Type checking with [TypeScript](https://www.typescriptlang.org)
+- Linter with [ESLint](https://eslint.org)
+- Code Formatter with [Prettier](https://prettier.io)
+- Containerization with [Docker](https://www.docker.com)
+- Database management with [PostgreSQL](https://www.postgresql.org) and [Prisma](https://www.prisma.io)
+- API Documentation with [Swagger](https://swagger.io)
+- Testing with [Jest](https://jestjs.io)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 👨🏻‍💻 Getting Started
 
-## Installation
+### Prerequisites
 
-```bash
-$ npm install
+- Node.js (>=20.x)
+- npm or yarn
+- Docker (optional, for containerized setup)
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   bash
+   git clone https://github.com/ByronMike/nestjs-template.git
+   cd nestjs-template
+   ```
+
+2. Install dependencies:
+
+```
+npm install
+# or
+yarn install
 ```
 
-## Running the app
+3. Running the database
+
+```bash
+docker compose up
+```
+
+4. Running the app
 
 ```bash
 # development
 $ npm run start
 
-# watch mode
+# watch mode (preferred)
 $ npm run start:dev
 
 # production mode
 $ npm run start:prod
 ```
+
+## Check the swagger
+
+http://localhost:4000/api#/
 
 ## Test
 
@@ -58,16 +75,28 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## 🚀 Deploy to Production
+You can build and start the app in production mode with:
+```bash
+npm run build
+npm run start:prod
+# or
+yarn build
+yarn start:prod
+```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## 💖 Contributing
+1. Fork this repository.
+2. Create your branch: `git checkout -b my-remarkable-contribution`.
+3. Commit your changes: `git commit -m 'feat: add my remarkable contribution'`.
+4. Push to the branch: `git push origin my-remarkable-contribution`.
 
-## Stay in touch
+## 📝 License
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Licensed under the MIT License, Copyright © 2024
 
-## License
+See [LICENSE](LICENSE) for more information.
 
-Nest is [MIT licensed](LICENSE).
+---
+
+Made with :heart: by Michaël Auger <a href="https://www.linkedin.com/in/auger-michael/">My Contact</a>
