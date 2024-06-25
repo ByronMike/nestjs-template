@@ -1,4 +1,4 @@
-# NestJS Boilerplate
+# Boilerplate for Nest.js, PostgreSQL, Prisma and Swagger
 
 ⚡ An open-source Boilerplate for NestJS developers who want to build a high-performance, maintainable, and enjoyable app: NestJS, TypeScript, ESLint, Prettier, Docker, PostgreSQL, Prisma, Jest, and Swagger.
 
